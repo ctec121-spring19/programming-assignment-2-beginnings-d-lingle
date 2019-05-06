@@ -2,7 +2,7 @@
 #   Programming Assignment 2
 #     Prob-1.py
 
-# YOUR NAME
+# Daniel (Ash) Lingle
 
 # Purpose: define some variables and print them out
 
@@ -30,38 +30,38 @@ def main():
         Item/Section:	Item 6485, Section A
     
     The assignment is for you to recreate the text above. The steps are 
-    outlined as comments below. After each commnent write your code in the
+    outlined as comments below. After each comment write your code in the
     blank line provided.
     '''
 
     # create variables and set values for:
     # location
-
+    location = "SHL 125"
     # time
-
+    time = "MW 10:30A - 12:50P"
     # quarter
-
+    quarter = "Spring 2019"
     # item - bonus points if you define item as a number
-
+    item = "6485,"
     # section - bonus points if you use "A" as the value
-    
+    section = "A"
     # print the output
     # print a blank line
-    
+    print()
     # print section heading - replace <name> with your name - no angle brackets. 
     # Ex: Bill's Output
-    print("<name>'s Output")
+    print("Ash's Output")
     # print the title - copy the code above
-
+    print("\tTitle:\t\t", classTitle, sep="")
     # print the location
-
+    print("\tLocation:\t", location, sep="")
     # print the time
-
+    print("\tTime:\t\t", time, sep="")
     # print the quarter
-
+    print("\tQuarter:\t", quarter, sep="")
     # print item/section
-
+    print("\tItem/Section:\tItem", item, "Section", section)
     # print a blank line
-
+    print()
 
 main()
